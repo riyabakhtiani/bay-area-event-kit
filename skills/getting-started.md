@@ -1,6 +1,6 @@
 ---
 name: getting-started
-description: First conversation after import. Friendly 3-card onboarding, then build the event data, team, ranking, tracker Page and routines from the public kit; resumes safely if interrupted.
+description: First conversation after import. Friendly 4-card onboarding, then build the event data, team, ranking, tracker Page and routines from the public kit; resumes safely if interrupted.
 ---
 # Getting started (friendly onboarding)
 
@@ -34,7 +34,7 @@ Plain, warm words. No jargon (never say JSON, schema, routine, MCP, canvas id, c
 - **Let me choose** → follow-up multiSelect: Calendar check (read-only) · Tracker Page · Helper team (Scout, Curator, Bargain) · Newsletter inbox.
 
 **If calendar chosen:** show the Google Calendar connect card (AuthenticateMcpServer for an installed connector, or InstallPlugin if missing). Then test one read-only list call (list calendars / a few upcoming events). Never create, change or delete events, never request write access; if the granted access is broader than read-only, say so plainly and promise reads only. If it fails or is skipped: continue without the calendar and say so in one line ("I'll go by your usual free times; connect your calendar anytime").
-**If newsletter inbox chosen:** follow the agent-email skill to find this bot's own inbox; if it is off, explain in one line how to turn it on and continue. Inbox ≠ permission to subscribe; never sign up anywhere without a separate yes.
+**If newsletter inbox chosen:** follow the agent-email skill to find this bot's own inbox; if it is off, explain in one line how to turn it on and continue. Inbox ≠ permission to subscribe; sign up only for the newsletters picked on CARD 3.
 
 ## Derived defaults (no questions)
 - Bot name **Seinfeld** (rename anytime). Budget year starts today; already spent $0; free events count toward the monthly cap; 30-minute buffer around meetings; picks at **9pm local, every day**.
