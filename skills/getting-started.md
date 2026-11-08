@@ -38,7 +38,7 @@ Plain, warm words. No jargon (never say JSON, schema, routine, MCP, canvas id, c
 
 ## Derived defaults (no questions)
 - Bot name **Seinfeld** (rename anytime). Budget year starts today; already spent $0; free events count toward the monthly cap; 30-minute buffer around meetings; picks at **9pm local, every day**.
-- **Yearly budget** = per-event max × monthly cap × 12, rounded to a friendly number (nearest $100 for small totals, nearest $500 once it reaches four figures). Free only → per-event max $0, yearly $0, free events only. No limit → no monthly cap and no yearly cap (per-event max still applies); say "no yearly limit" in the summary. Example: Up to $50 × 4 × 12 = $2,400.
+- **Yearly budget** = per-event max × monthly cap × 12 × 0.5 (most events cost well under the max), rounded to a friendly number (nearest $100 for small totals, nearest $500 once it reaches four figures). Free only → per-event max $0, yearly $0, free events only. No limit → no monthly cap and no yearly cap (per-event max still applies); say "no yearly limit" in the summary. Example: Up to $50 × 4 × 12 × 0.5 = $1,200. Show it in the summary so the owner can change it.
 - Unknown stays unknown (null), never invented.
 
 ## CARD 3 — "Help me find deals and sources" (multi-step widget; every step allowCustom + a None/skip option)
