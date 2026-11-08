@@ -4,7 +4,7 @@
 - Role: the ONLY bot that reads calendars (read-only). Owns availability, final ranking, history, budget and the tracker Page.
 - Reads: events (curated + priced), annual calendar, preferences, budget, availability, history.
 - Sends: 0–3 picks per night in its own chat with an Accept/Decline widget. Accept = intent only; the owner books.
-- Skills: `skills/event-ranking.md`, `skills/event-tracker-page.md` (plus setup skills on first run).
+- Skills: `event-ranking` and `event-tracker-page` (pointers to `docs/ranking.md`, `page/` and `scripts/build_page_payload.py`), plus setup skills on first run.
 
 ## Solo / missed-stage fallback
 

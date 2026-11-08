@@ -1,5 +1,12 @@
 # Bay Area Event Kit
 
+**Quick start**
+1. Import the event-bot template into Grok Bot.
+2. Answer 4 quick cards (what you like, how to set up, deals and sources, confirm).
+3. Done: it builds its team, tracker Page and 9pm nightly picks from this kit.
+
+---
+
 A data-free kit for rebuilding a Grok Bot **event recommender**: a main bot plus three teammates (Scout, Curator, Bargain) that find, score and price local events and send **0–3 picks a night** to accept or decline in chat. It also includes the exact five-tab **tracker Page** design.
 
 The kit contains **no personal data**: no events, history, budget, calendar or availability contents, no names, email addresses or IDs. Each installation creates its own.
@@ -33,7 +40,8 @@ flowchart LR
 | `scripts/privacy_scan.sh` | Scans for personal data before you share anything. |
 | `schemas/` | `events`, `history`, `annual_calendar`, `budget` and `availability` schemas (JSON Schema 2020-12). |
 | `agents/` | `scout.md`, `curator.md`, `bargain.md`: CreateAgent description, SendToAgent briefing and full daily job for each. `main-bot.md`: the main bot's role. |
-| `skills/` | `getting-started`, `event-data-setup`, `event-team-setup`, `event-ranking` and `event-tracker-page`. |
+| `docs/` | Full instructions the skills point to: `data-setup.md`, `team-setup.md`, `ranking.md`, `tracker-page-spec.md`. |
+| `skills/` | `getting-started` (onboarding + build) and thin pointers `event-data-setup`, `event-team-setup`, `event-ranking`, `event-tracker-page` that read `docs/` from `/workspace/event-kit`. |
 | `routines/` | Nightly picks and optional newsletter-intake routine prompts. |
 | `examples/sf-bay-area/annual_calendar.example.json` | Public SF/Bay Area annual festival list with typical months and planning price ranges. Optional starting point only: re-verify before use. |
 | `tests/` | `render_test.sh` type-checks and server-renders every tab. Fixtures are fictional. |
@@ -42,30 +50,30 @@ flowchart LR
 
 Run these on the bot's box. `EV=/workspace/events` is the data folder; use an instance-specific folder if another installation already uses it.
 
-**1. Clone the kit** (HTTPS, no auth needed if the repo is public; otherwise use the owner's `gh auth login`):
+**1. Clone the kit** (public repo, plain HTTPS, no login needed):
 ```bash
-git clone https://github.com/<kit-owner>/bay-area-event-kit.git /workspace/event-kit
+git clone https://github.com/riyabakhtiani/bay-area-event-kit.git /workspace/event-kit
 # later: git -C /workspace/event-kit pull
 ```
 
-**2. Onboard the owner.** Follow `skills/getting-started.md`: one question at a time covering city, interests, goals, budget, monthly cap, free windows, calendar (read-only), inbox, Page and team. Save the answers to `$EV/preferences.json`. Save runtime handles such as canvas id, agent ids and routine ids to `$EV/setup-state.json`. Never write secrets.
+**2. Onboard the owner.** Follow `skills/getting-started.md`: four tappable cards (what you like, how to set up, deals and sources, summary and confirm) with smart defaults. Save the answers to `$EV/preferences.json`. Save runtime handles such as canvas id, agent ids and routine ids to `$EV/setup-state.json`. Never write secrets.
 
 **3. Create the data folder and contracts:**
 ```bash
 python3 -m pip install --user jsonschema   # or use a venv
 python3 /workspace/event-kit/scripts/generate_schemas.py --dir "$EV"
 ```
-Then write `budget.json` and `availability.json` from the owner's answers, using `schemas/` (unknown = `null`, never `0`). Also write `$EV/README.md` with the field contracts from `skills/event-data-setup.md`. Research the owner's own annual calendar. For the SF Bay Area you may start from `examples/sf-bay-area/annual_calendar.example.json`, but re-verify every entry.
+Then write `budget.json` and `availability.json` from the owner's answers, using `schemas/` (unknown = `null`, never `0`). Also write `$EV/README.md` with the field contracts from `docs/data-setup.md`. Research the owner's own annual calendar. For the SF Bay Area you may start from `examples/sf-bay-area/annual_calendar.example.json`, but re-verify every entry.
 
-**4. Create the team** (if the owner opts in). Follow `skills/event-team-setup.md` with `agents/*.md`:
+**4. Create the team** (if the owner opts in). Follow `docs/team-setup.md` with `agents/*.md`:
 - `CreateAgent` for Scout, Curator and Bargain, using the "CreateAgent description".
 - `SendToAgent` with the briefing plus the **full** daily job pasted in. Each teammate then creates its own routine (5pm, 7pm, 8pm in the owner's zone).
-- Copy the jobs to `$EV/workflow/{scout,curator,bargain}.md`, and `skills/event-ranking.md` to `$EV/workflow/event-ranking.md`.
+- Copy the jobs to `$EV/workflow/{scout,curator,bargain}.md`, and `docs/ranking.md` to `$EV/workflow/event-ranking.md`.
 - Record the new agent ids in `setup-state.json`.
 
 Solo mode: the main bot runs all three jobs before ranking each night.
 
-**5. First ranking pass now.** Follow `skills/event-ranking.md` and run Scout → Curator → Bargain → availability → rank. Real data only; zero picks is a valid result.
+**5. First ranking pass now.** Follow `docs/ranking.md` and run Scout → Curator → Bargain → availability → rank. Real data only; zero picks is a valid result.
 
 **6. Build the tracker Page:**
 ```bash
