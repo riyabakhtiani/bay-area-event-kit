@@ -1,0 +1,83 @@
+[
+ {
+  "id": "event-001",
+  "name": "Example Jazz Night",
+  "url": "https://example.com/jazz",
+  "date": "2030-03-08",
+  "time": "19:30",
+  "end_time": "22:00",
+  "timezone": "America/Los_Angeles",
+  "venue": "Example Hall",
+  "city": "Example City",
+  "price_min": 20,
+  "price_max": 35,
+  "currency": "USD",
+  "cost_bucket": "low",
+  "type": "music",
+  "tags": [
+   "jazz"
+  ],
+  "status": "curated",
+  "verification_status": "verified",
+  "scoring_rationale": "Fictional fixture event. Used to test rendering.",
+  "pricing": {
+   "best_price": 18,
+   "best_source": "Example box office (member)",
+   "best_url": "https://example.com/jazz/tickets",
+   "face_value": 20,
+   "conditions": "Membership required",
+   "deadline": null,
+   "verified_at": "2030-03-01T20:00:00-08:00",
+   "confidence": "verified",
+   "notes": "fixture",
+   "availability": "available"
+  },
+  "scores": {
+   "availability": "fits",
+   "on_call_ok": true
+  }
+ },
+ {
+  "id": "event-002",
+  "name": "Example Free Museum Day",
+  "url": "https://example.com/museum",
+  "date": "2030-03-09",
+  "time": "10:00",
+  "timezone": "America/Los_Angeles",
+  "venue": "Example Museum",
+  "city": "Example City",
+  "price_min": 0,
+  "price_max": 0,
+  "type": "art/museum",
+  "tags": [],
+  "status": "curated",
+  "verification_status": "verified",
+  "date_start": "2030-03-09",
+  "date_end": "2030-03-10",
+  "sessions": [
+   {
+    "id": "s1",
+    "date": "2030-03-09",
+    "time": "10:00"
+   },
+   {
+    "id": "s2",
+    "date": "2030-03-10",
+    "time": "10:00"
+   }
+  ]
+ },
+ {
+  "id": "event-003",
+  "name": "Example Price-Unknown Talk",
+  "url": "https://example.com/talk",
+  "date": "2030-03-12",
+  "time": "18:00",
+  "venue": "Example Library",
+  "price_min": null,
+  "price_max": null,
+  "type": "talk",
+  "status": "curated",
+  "verification_status": "needs_review"
+ }
+]

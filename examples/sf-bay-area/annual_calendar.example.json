@@ -1,0 +1,1604 @@
+[
+  {
+    "id": "annual-001",
+    "name": "SF Sketchfest",
+    "city": "San Francisco",
+    "category": "comedy",
+    "timing": "2027-01-14 to 2027-01-31",
+    "typical_months": [
+      1
+    ],
+    "date_start": "2027-01-14",
+    "date_end": "2027-01-31",
+    "dates_confirmed": true,
+    "typical_price_min": 25.0,
+    "typical_price_max": 100.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Rare comic collaborations, live podcasts and tributes",
+    "official_url": "https://sfsketchfest.com/",
+    "source_urls": [
+      "https://sfsketchfest.com/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-002",
+    "name": "FOG Design+Art",
+    "city": "San Francisco",
+    "category": "art/design",
+    "timing": "2027-01-21 to 2027-01-24",
+    "typical_months": [
+      1
+    ],
+    "date_start": "2027-01-21",
+    "date_end": "2027-01-24",
+    "dates_confirmed": true,
+    "typical_price_min": 40,
+    "typical_price_max": 45,
+    "currency": "USD",
+    "price_basis": "published",
+    "why_standout": "International galleries and design talks in one accessible fair",
+    "official_url": "https://www.fogfair.com/tickets/",
+    "source_urls": [
+      "https://www.fogfair.com/tickets/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-003",
+    "name": "SF IndieFest",
+    "city": "San Francisco",
+    "category": "film",
+    "timing": "2027-02-04 to 2027-02-14",
+    "typical_months": [
+      2
+    ],
+    "date_start": "2027-02-04",
+    "date_end": "2027-02-14",
+    "dates_confirmed": true,
+    "typical_price_min": 15.0,
+    "typical_price_max": 25.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Independent cinema outside mainstream distribution",
+    "official_url": "https://sfindie.com/",
+    "source_urls": [
+      "https://sfindie.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-004",
+    "name": "Chinese New Year Parade",
+    "city": "San Francisco",
+    "category": "culture",
+    "timing": "2027-02-20",
+    "typical_months": [
+      2
+    ],
+    "date_start": "2027-02-20",
+    "date_end": "2027-02-20",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Nighttime illuminated floats and Chinatown traditions",
+    "official_url": "https://chineseparade.com/",
+    "source_urls": [
+      "https://chineseparade.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-005",
+    "name": "Noise Pop Festival",
+    "city": "San Francisco/Oakland",
+    "category": "music",
+    "timing": "2027-02-18 to 2027-02-28",
+    "typical_months": [
+      2
+    ],
+    "date_start": "2027-02-18",
+    "date_end": "2027-02-28",
+    "dates_confirmed": true,
+    "typical_price_min": 25.0,
+    "typical_price_max": 75.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Discover emerging artists in intimate local venues",
+    "official_url": "https://www.noisepopfest.com/",
+    "source_urls": [
+      "https://www.noisepopfest.com/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-006",
+    "name": "SF International Film Festival",
+    "city": "San Francisco/Berkeley",
+    "category": "film",
+    "timing": "2027-04-22 to 2027-05-02",
+    "typical_months": [
+      4
+    ],
+    "date_start": "2027-04-22",
+    "date_end": "2027-05-02",
+    "dates_confirmed": true,
+    "typical_price_min": 20.0,
+    "typical_price_max": 35.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Filmmaker conversations and international premieres",
+    "official_url": "https://sffilm.org/yr-faq/",
+    "source_urls": [
+      "https://sffilm.org/yr-faq/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-007",
+    "name": "SF International Ocean Film Festival",
+    "city": "San Francisco",
+    "category": "film/outdoors",
+    "timing": "typically April",
+    "typical_months": [
+      4
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 15.0,
+    "typical_price_max": 30.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Ocean exploration, conservation and adventure films",
+    "official_url": "https://intloceanfilmfest.org/",
+    "source_urls": [
+      "https://intloceanfilmfest.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-008",
+    "name": "Northern California Cherry Blossom Festival",
+    "city": "San Francisco",
+    "category": "culture",
+    "timing": "April 10–11 and 17–18, 2027",
+    "typical_months": [
+      4
+    ],
+    "date_start": "2027-04-10",
+    "date_end": "2027-04-18",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Japantown performance, crafts and community traditions",
+    "official_url": "https://sfcherryblossom.org/",
+    "source_urls": [
+      "https://sfcherryblossom.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-009",
+    "name": "Art Market San Francisco / San Francisco Art Fair",
+    "city": "San Francisco",
+    "category": "art",
+    "timing": "2027-04-15 to 2027-04-18",
+    "typical_months": [
+      4
+    ],
+    "date_start": "2027-04-15",
+    "date_end": "2027-04-18",
+    "dates_confirmed": true,
+    "typical_price_min": 30.0,
+    "typical_price_max": 50.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Regional and international galleries under one roof",
+    "official_url": "https://sanfranciscoartfair.com/",
+    "source_urls": [
+      "https://sanfranciscoartfair.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-010",
+    "name": "SF Restaurant Week",
+    "city": "San Francisco",
+    "category": "food",
+    "timing": "typically April and autumn",
+    "typical_months": [
+      4
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 15.0,
+    "typical_price_max": 90.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Prix-fixe menus can make ambitious restaurants more accessible",
+    "official_url": "https://www.sfrestaurantweek.com/",
+    "source_urls": [
+      "https://www.sfrestaurantweek.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-011",
+    "name": "Bay to Breakers",
+    "city": "San Francisco",
+    "category": "fitness/culture",
+    "timing": "2027-05-16",
+    "typical_months": [
+      5
+    ],
+    "date_start": "2027-05-16",
+    "date_end": "2027-05-16",
+    "dates_confirmed": true,
+    "typical_price_min": 60.0,
+    "typical_price_max": 120.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Costumed city-crossing run; spectating is free",
+    "official_url": "https://baytobreakers.com/",
+    "source_urls": [
+      "https://baytobreakers.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-012",
+    "name": "Carnaval San Francisco",
+    "city": "San Francisco",
+    "category": "culture/dance",
+    "timing": "2027-05-29 to 2027-05-30",
+    "typical_months": [
+      5
+    ],
+    "date_start": "2027-05-29",
+    "date_end": "2027-05-30",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Multi-block Latin American and Caribbean parade and performances",
+    "official_url": "https://carnavalsanfrancisco.org/",
+    "source_urls": [
+      "https://carnavalsanfrancisco.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-013",
+    "name": "BottleRock Napa Valley",
+    "city": "Napa",
+    "category": "music/food",
+    "timing": "2027-05-28 to 2027-05-30",
+    "typical_months": [
+      5
+    ],
+    "date_start": "2027-05-28",
+    "date_end": "2027-05-30",
+    "dates_confirmed": true,
+    "typical_price_min": 200.0,
+    "typical_price_max": 300.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Big music acts meet Napa chefs; consider single day only",
+    "official_url": "https://www.bottlerocknapavalley.com/tickets/",
+    "source_urls": [
+      "https://www.bottlerocknapavalley.com/tickets/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-014",
+    "name": "SF International Arts Festival",
+    "city": "San Francisco",
+    "category": "theater/dance",
+    "timing": "typically May–June",
+    "typical_months": [
+      5,
+      6
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 20.0,
+    "typical_price_max": 50.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Experimental international performance and local collaborations",
+    "official_url": "https://www.sfiaf.org/",
+    "source_urls": [
+      "https://www.sfiaf.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-015",
+    "name": "SF Design Week",
+    "city": "San Francisco/Bay Area",
+    "category": "design/fashion",
+    "timing": "typically June",
+    "typical_months": [
+      6
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 75.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Studio access and conversations across creative disciplines",
+    "official_url": "https://sfdesignweek.org/",
+    "source_urls": [
+      "https://sfdesignweek.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-016",
+    "name": "Bay Area Book Festival",
+    "city": "Berkeley",
+    "category": "books/ideas",
+    "timing": "2027-06-04 to 2027-06-06",
+    "typical_months": [
+      6
+    ],
+    "date_start": "2027-06-04",
+    "date_end": "2027-06-06",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 30.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Author conversations and free outdoor literary exploration",
+    "official_url": "https://www.baybookfest.org/bay-area-book-festival/",
+    "source_urls": [
+      "https://www.baybookfest.org/bay-area-book-festival/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-017",
+    "name": "SF DocFest",
+    "city": "San Francisco",
+    "category": "film",
+    "timing": "2027-06-03 to 2027-06-13",
+    "typical_months": [
+      6
+    ],
+    "date_start": "2027-06-03",
+    "date_end": "2027-06-13",
+    "dates_confirmed": true,
+    "typical_price_min": 15.0,
+    "typical_price_max": 25.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Independent nonfiction and filmmaker access",
+    "official_url": "https://sfindie.com/",
+    "source_urls": [
+      "https://sfindie.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-018",
+    "name": "SF Pride",
+    "city": "San Francisco",
+    "category": "culture",
+    "timing": "2027-06-26 to 2027-06-27",
+    "typical_months": [
+      6
+    ],
+    "date_start": "2027-06-26",
+    "date_end": "2027-06-27",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "City-defining parade, music and community celebration",
+    "official_url": "https://sfpride.org/",
+    "source_urls": [
+      "https://sfpride.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-019",
+    "name": "North Beach Festival",
+    "city": "San Francisco",
+    "category": "culture/art",
+    "timing": "typically June",
+    "typical_months": [
+      6
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Neighborhood street fair with artists and live entertainment",
+    "official_url": "https://www.northbeachfestival.org/",
+    "source_urls": [
+      "https://www.northbeachfestival.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-020",
+    "name": "Stern Grove Festival",
+    "city": "San Francisco",
+    "category": "music",
+    "timing": "typically June–August",
+    "typical_months": [
+      6,
+      8
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Major musicians in a remarkable outdoor amphitheater; reservation needed",
+    "official_url": "https://www.sterngrove.org/",
+    "source_urls": [
+      "https://www.sterngrove.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-021",
+    "name": "Foodwise Summer Bash",
+    "city": "San Francisco",
+    "category": "food/drink",
+    "timing": "2027-06-20",
+    "typical_months": [
+      6
+    ],
+    "date_start": "2027-06-20",
+    "date_end": "2027-06-20",
+    "dates_confirmed": true,
+    "typical_price_min": 150.0,
+    "typical_price_max": 250.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Unlimited chef tastes and drinks supporting food access",
+    "official_url": "https://foodwise.org/events/foodwise-summer-bash/",
+    "source_urls": [
+      "https://foodwise.org/events/foodwise-summer-bash/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-022",
+    "name": "Frameline LGBTQ+ Film Festival",
+    "city": "San Francisco/Oakland",
+    "category": "film/culture",
+    "timing": "typically June",
+    "typical_months": [
+      6
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 15.0,
+    "typical_price_max": 30.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "International queer cinema and filmmaker discussions",
+    "official_url": "https://www.frameline.org/",
+    "source_urls": [
+      "https://www.frameline.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-023",
+    "name": "San Francisco Jazz Festival",
+    "city": "San Francisco",
+    "category": "music",
+    "timing": "typically June",
+    "typical_months": [
+      6
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 30.0,
+    "typical_price_max": 150.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Concentrated access to adventurous jazz and distinctive collaborations",
+    "official_url": "https://www.sfjazz.org/",
+    "source_urls": [
+      "https://www.sfjazz.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-024",
+    "name": "Alameda County Fair",
+    "city": "Pleasanton",
+    "category": "culture/food",
+    "timing": "2027-06-18 to 2027-07-11",
+    "typical_months": [
+      6
+    ],
+    "date_start": "2027-06-18",
+    "date_end": "2027-07-11",
+    "dates_confirmed": true,
+    "typical_price_min": 15.0,
+    "typical_price_max": 30.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "County fair competitions, animals, concerts and rides",
+    "official_url": "https://annual.alamedacountyfair.com/",
+    "source_urls": [
+      "https://annual.alamedacountyfair.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-025",
+    "name": "Fillmore Jazz Festival",
+    "city": "San Francisco",
+    "category": "music",
+    "timing": "2027-07-03 to 2027-07-04",
+    "typical_months": [
+      7
+    ],
+    "date_start": "2027-07-03",
+    "date_end": "2027-07-04",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Free neighborhood jazz across multiple stages",
+    "official_url": "https://fillmorejazzfest.com/",
+    "source_urls": [
+      "https://fillmorejazzfest.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-026",
+    "name": "SF Marathon",
+    "city": "San Francisco",
+    "category": "fitness",
+    "timing": "typically July",
+    "typical_months": [
+      7
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 69.45,
+    "typical_price_max": 436.85,
+    "currency": "USD",
+    "price_basis": "published",
+    "why_standout": "Landmark road race; shorter distances and free spectating",
+    "official_url": "https://www.thesfmarathon.com/",
+    "source_urls": [
+      "https://www.thesfmarathon.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-027",
+    "name": "Renegade Craft San Francisco",
+    "city": "San Francisco",
+    "category": "design/fashion",
+    "timing": "2026-11-14 to 2026-11-15",
+    "typical_months": [
+      11
+    ],
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-15",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "unknown",
+    "why_standout": "Independent makers and wearable design discovery",
+    "official_url": "https://www.renegadecraft.com/event/san-francisco-winter/",
+    "source_urls": [
+      "https://www.renegadecraft.com/event/san-francisco-winter/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-028",
+    "name": "Outside Lands",
+    "city": "San Francisco",
+    "category": "music/food",
+    "timing": "2027-08-06 to 2027-08-08",
+    "typical_months": [
+      8
+    ],
+    "date_start": "2027-08-06",
+    "date_end": "2027-08-08",
+    "dates_confirmed": true,
+    "typical_price_min": 200.0,
+    "typical_price_max": 300.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Genre-crossing festival with local food; single day only within cap",
+    "official_url": "https://sfoutsidelands.com/",
+    "source_urls": [
+      "https://sfoutsidelands.com/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-029",
+    "name": "San Jose Jazz Summer Fest",
+    "city": "San Jose",
+    "category": "music",
+    "timing": "2027-08-13 to 2027-08-15",
+    "typical_months": [
+      8
+    ],
+    "date_start": "2027-08-13",
+    "date_end": "2027-08-15",
+    "dates_confirmed": true,
+    "typical_price_min": 40.0,
+    "typical_price_max": 150.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Downtown jazz, soul and global music with dance-friendly sets",
+    "official_url": "https://summerfest.sanjosejazz.org/",
+    "source_urls": [
+      "https://summerfest.sanjosejazz.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-030",
+    "name": "Nihonmachi Street Fair",
+    "city": "San Francisco",
+    "category": "culture",
+    "timing": "2027-08-07 to 2027-08-08",
+    "typical_months": [
+      8
+    ],
+    "date_start": "2027-08-07",
+    "date_end": "2027-08-08",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Asian American and Pacific Islander community arts and music",
+    "official_url": "https://www.nihonmachistreetfair.org/",
+    "source_urls": [
+      "https://www.nihonmachistreetfair.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-032",
+    "name": "Mountain View Art & Wine Festival",
+    "city": "Mountain View",
+    "category": "food/art",
+    "timing": "typically September",
+    "typical_months": [
+      9
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Large walkable street fair; drinks and food cost extra",
+    "official_url": "https://www.mvartwine.com/",
+    "source_urls": [
+      "https://www.mvartwine.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-033",
+    "name": "Folsom Street Fair",
+    "city": "San Francisco",
+    "category": "culture/fashion",
+    "timing": "2027-09-26",
+    "typical_months": [
+      9
+    ],
+    "date_start": "2027-09-26",
+    "date_end": "2027-09-26",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Distinctive adult leather and fetish street culture; opt-in content",
+    "official_url": "https://www.folsomstreet.org/",
+    "source_urls": [
+      "https://www.folsomstreet.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-035",
+    "name": "Maker Faire Bay Area",
+    "city": "Vallejo",
+    "category": "tech/art",
+    "timing": "2027-09-24 to 2027-09-26",
+    "typical_months": [
+      9
+    ],
+    "date_start": "2027-09-24",
+    "date_end": "2027-09-26",
+    "dates_confirmed": true,
+    "typical_price_min": 40.0,
+    "typical_price_max": 100.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Hands-on robots, fire art and inventive maker demonstrations",
+    "official_url": "https://makerfaire.com/bay-area/",
+    "source_urls": [
+      "https://makerfaire.com/bay-area/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-036",
+    "name": "Hardly Strictly Bluegrass",
+    "city": "San Francisco",
+    "category": "music",
+    "timing": "typically October",
+    "typical_months": [
+      10
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "World-class roots and cross-genre music with no ticket fee",
+    "official_url": "https://hardlystrictlybluegrass.com/",
+    "source_urls": [
+      "https://hardlystrictlybluegrass.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-037",
+    "name": "Fleet Week",
+    "city": "San Francisco",
+    "category": "culture/outdoors",
+    "timing": "typically October",
+    "typical_months": [
+      10
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Waterfront airshow and ship visits; premium seating optional",
+    "official_url": "https://fleetweeksf.org/",
+    "source_urls": [
+      "https://fleetweeksf.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-038",
+    "name": "Mill Valley Film Festival",
+    "city": "Mill Valley/San Rafael",
+    "category": "film",
+    "timing": "typically October",
+    "typical_months": [
+      10
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 20.0,
+    "typical_price_max": 35.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Awards-season previews and filmmaker appearances",
+    "official_url": "https://www.mvff.com/",
+    "source_urls": [
+      "https://www.mvff.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-039",
+    "name": "Litquake",
+    "city": "San Francisco/Bay Area",
+    "category": "books/ideas",
+    "timing": "typically October",
+    "typical_months": [
+      10
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 35.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Inventive literary gatherings; Lit Crawl is especially good free value",
+    "official_url": "https://www.litquake.org/",
+    "source_urls": [
+      "https://www.litquake.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-040",
+    "name": "Open Studios (ArtSpan)",
+    "city": "San Francisco",
+    "category": "art",
+    "timing": "typically September–October",
+    "typical_months": [
+      9,
+      10
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Meet working artists in their studios rather than galleries",
+    "official_url": "https://www.artspan.org/",
+    "source_urls": [
+      "https://www.artspan.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-041",
+    "name": "Leap Sandcastle Classic",
+    "city": "San Francisco",
+    "category": "art/outdoors",
+    "timing": "typically October",
+    "typical_months": [
+      10
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Large collaborative sand sculpture on Ocean Beach",
+    "official_url": "https://www.leapsandcastleclassic.org/",
+    "source_urls": [
+      "https://www.leapsandcastleclassic.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-042",
+    "name": "Foodwise Sunday Supper",
+    "city": "San Francisco",
+    "category": "food/drink",
+    "timing": "2027-10-17",
+    "typical_months": [
+      10
+    ],
+    "date_start": "2027-10-17",
+    "date_end": "2027-10-17",
+    "dates_confirmed": true,
+    "typical_price_min": 300.0,
+    "typical_price_max": 600.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Chef-and-farmer fundraising feast; likely exceeds cap, watch only",
+    "official_url": "https://foodwise.org/events/foodwise-sunday-supper/",
+    "source_urls": [
+      "https://foodwise.org/events/foodwise-sunday-supper/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-043",
+    "name": "West Coast Craft",
+    "city": "San Francisco",
+    "category": "design/fashion",
+    "timing": "typically November and June",
+    "typical_months": [
+      6,
+      11
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Hundreds of independent makers and vintage design",
+    "official_url": "https://www.westcoastcraft.com/",
+    "source_urls": [
+      "https://www.westcoastcraft.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-044",
+    "name": "SF International Hip Hop DanceFest",
+    "city": "San Francisco",
+    "category": "dance",
+    "timing": "2026-11-14 to 2026-11-15",
+    "typical_months": [
+      11
+    ],
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-15",
+    "dates_confirmed": true,
+    "typical_price_min": 64.05,
+    "typical_price_max": 75.45,
+    "currency": "USD",
+    "price_basis": "published",
+    "why_standout": "Global street-dance crews with included audience interaction",
+    "official_url": "https://www.sfhiphopdancefest.com/",
+    "source_urls": [
+      "https://www.sfhiphopdancefest.com/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-045",
+    "name": "Great Dickens Christmas Fair",
+    "city": "Daly City",
+    "category": "immersive/theater",
+    "timing": "Weekends November 21–December 20, 2026 plus November 27",
+    "typical_months": [
+      11
+    ],
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-20",
+    "dates_confirmed": true,
+    "typical_price_min": 35.0,
+    "typical_price_max": 60.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Walk through a theatrical Victorian London with performers",
+    "official_url": "https://dickensfair.com/",
+    "source_urls": [
+      "https://dickensfair.com/"
+    ],
+    "worth_splurge": true,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-046",
+    "name": "Illuminate SF Festival of Light",
+    "city": "San Francisco",
+    "category": "art/outdoors",
+    "timing": "2026-11-27 to 2027-01-31",
+    "typical_months": [
+      11
+    ],
+    "date_start": "2026-11-27",
+    "date_end": "2027-01-31",
+    "dates_confirmed": true,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "unknown",
+    "why_standout": "Self-guided light-art discovery across neighborhoods",
+    "official_url": "https://www.sftravel.com/article/installations-see-illuminate-sf-light-art-trail",
+    "source_urls": [
+      "https://www.sftravel.com/article/installations-see-illuminate-sf-light-art-trail"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-047",
+    "name": "Kolo Festival",
+    "city": "San Francisco",
+    "category": "dance/culture",
+    "timing": "2026-11-27 to 2026-11-29",
+    "typical_months": [
+      11
+    ],
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-29",
+    "dates_confirmed": true,
+    "typical_price_min": 30.0,
+    "typical_price_max": 150.0,
+    "currency": "USD",
+    "price_basis": "planning_estimate",
+    "why_standout": "Learn Balkan dances with live music in a participatory community",
+    "official_url": "https://kolofestival.org/",
+    "source_urls": [
+      "https://kolofestival.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-049",
+    "name": "California Academy of Sciences NightLife",
+    "city": "San Francisco",
+    "category": "science/nightlife",
+    "timing": "typically Thursday evenings year-round",
+    "typical_months": [],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 26,
+    "typical_price_max": 26,
+    "currency": "USD",
+    "price_basis": "published",
+    "why_standout": "Adult museum evenings linking science, music and changing themes",
+    "official_url": "https://www.calacademy.org/nightlife",
+    "source_urls": [
+      "https://www.calacademy.org/nightlife"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-050",
+    "name": "Oakland First Fridays",
+    "city": "Oakland",
+    "category": "art/music/food",
+    "timing": "typically monthly first Friday",
+    "typical_months": [],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 0.0,
+    "typical_price_max": 0.0,
+    "currency": "USD",
+    "price_basis": "historical",
+    "why_standout": "Street-level Oakland artists, performances and community",
+    "official_url": "https://www.oaklandfirstfridays.org/",
+    "source_urls": [
+      "https://www.oaklandfirstfridays.org/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-051",
+    "name": "Giants baseball at Oracle Park",
+    "city": "San Francisco",
+    "category": "sports",
+    "timing": "typically April–September",
+    "typical_months": [
+      4,
+      9
+    ],
+    "date_start": null,
+    "date_end": null,
+    "dates_confirmed": false,
+    "typical_price_min": 9,
+    "typical_price_max": 100,
+    "currency": "USD",
+    "price_basis": "published",
+    "why_standout": "Waterfront major-league baseball; weekday value seats often best",
+    "official_url": "https://www.mlb.com/giants/tickets",
+    "source_urls": [
+      "https://www.mlb.com/giants/tickets"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "typical_only",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-053",
+    "name": "Berkeley Half Marathon",
+    "city": "Berkeley",
+    "category": "fitness",
+    "timing": "2026-11-15",
+    "typical_months": [
+      11
+    ],
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "dates_confirmed": true,
+    "typical_price_min": 96.99,
+    "typical_price_max": 209.99,
+    "currency": "USD",
+    "price_basis": "published",
+    "why_standout": "Community running with shorter race distances available",
+    "official_url": "https://berkeleyhalfmarathon.com/",
+    "source_urls": [
+      "https://berkeleyhalfmarathon.com/"
+    ],
+    "worth_splurge": false,
+    "best_free": false,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  },
+  {
+    "id": "annual-054",
+    "name": "SF Climate Week",
+    "city": "San Francisco/Bay Area",
+    "category": "tech/climate/ideas",
+    "timing": "April 17–25, 2027",
+    "typical_months": [
+      4
+    ],
+    "date_start": "2027-04-17",
+    "date_end": "2027-04-25",
+    "dates_confirmed": true,
+    "typical_price_min": 0,
+    "typical_price_max": null,
+    "currency": "USD",
+    "price_basis": "unknown",
+    "why_standout": "Community-built climate showcases, demos and discussions offer practical learning without an industry-conference pass.",
+    "official_url": "https://sfclimateweek.org/",
+    "source_urls": [
+      "https://sfclimateweek.org/",
+      "https://explore.sfclimateweek.org/faqs"
+    ],
+    "worth_splurge": false,
+    "best_free": true,
+    "booking_window": null,
+    "on_sale_at": null,
+    "booking_deadline": null,
+    "verified_on": "2026-11-07",
+    "verification_status": "verified",
+    "notes": [
+      "Public example snapshot. Re-verify dates and prices before use; prices are planning ranges, not quotes."
+    ]
+  }
+]

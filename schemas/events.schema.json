@@ -1,0 +1,961 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "date": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "time": {
+        "anyOf": [
+          {
+            "type": "string",
+            "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "end_time": {
+        "anyOf": [
+          {
+            "type": "string",
+            "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "timezone": {
+        "type": "string"
+      },
+      "venue": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "neighborhood": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "city": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "date_start": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "date_end": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "sessions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string",
+              "format": "date"
+            },
+            "time": {
+              "type": "string",
+              "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+            },
+            "end_time": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "end_date": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "timezone": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "id",
+            "date",
+            "time",
+            "end_time",
+            "timezone",
+            "source"
+          ],
+          "additionalProperties": true
+        }
+      },
+      "price_min": {
+        "anyOf": [
+          {
+            "type": "number",
+            "minimum": 0
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "price_max": {
+        "anyOf": [
+          {
+            "type": "number",
+            "minimum": 0
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "currency": {
+        "type": "string"
+      },
+      "cost_bucket": {
+        "enum": [
+          "free",
+          "low",
+          "medium",
+          "high",
+          "premium",
+          "over_cap",
+          "unknown"
+        ]
+      },
+      "type": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "popularity_signal": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "text",
+              "source"
+            ],
+            "additionalProperties": true
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "rating": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "scale": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "source": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "value",
+              "scale",
+              "source"
+            ],
+            "additionalProperties": true
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "exclusivity": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "uniqueness": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "life_value": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "energy_level": {
+        "enum": [
+          "low",
+          "medium",
+          "high",
+          null
+        ]
+      },
+      "solo_friendly": {
+        "anyOf": [
+          {
+            "type": "boolean"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "indoor_outdoor": {
+        "enum": [
+          "indoor",
+          "outdoor",
+          "mixed",
+          null
+        ]
+      },
+      "booking_urgency": {
+        "enum": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          null
+        ]
+      },
+      "last_chance": {
+        "anyOf": [
+          {
+            "type": "boolean"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "recurring_series": {
+        "anyOf": [
+          {
+            "type": "boolean"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "series_note": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "travel_notes": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "scoring_rationale": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "better_alternative": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "annual_id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "date": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "reason": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "annual_id",
+              "name",
+              "date",
+              "reason"
+            ],
+            "additionalProperties": true
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "source": {
+        "type": "string",
+        "format": "uri"
+      },
+      "source_label": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "source_urls": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "discovered_on": {
+        "type": "string",
+        "format": "date"
+      },
+      "published_at": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "source_checked_at": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "verification_status": {
+        "enum": [
+          "needs_review",
+          "verified",
+          "price_uncertain",
+          "unverifiable",
+          "past",
+          "cancelled"
+        ]
+      },
+      "status": {
+        "enum": [
+          "new",
+          "curated",
+          "recommended",
+          "accepted",
+          "declined",
+          "attended"
+        ]
+      },
+      "curated_on": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "curated_by": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "notes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "pricing": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "best_price": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "best_source": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "best_url": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "face_value": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "face_value_source": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "conditions": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "deadline": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "verified_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "confidence": {
+                "enum": [
+                  "verified",
+                  "unverified"
+                ]
+              },
+              "fees_included": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "eligibility_confirmed": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "availability": {
+                "enum": [
+                  "available",
+                  "sold_out",
+                  "waitlist",
+                  "unknown"
+                ]
+              },
+              "notes": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "price": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "conditions": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "verified": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "price",
+                    "url",
+                    "conditions",
+                    "verified"
+                  ],
+                  "additionalProperties": true
+                }
+              }
+            },
+            "required": [
+              "best_price",
+              "best_source",
+              "best_url",
+              "face_value",
+              "conditions",
+              "deadline",
+              "verified_at",
+              "confidence",
+              "fees_included",
+              "eligibility_confirmed",
+              "availability",
+              "notes"
+            ],
+            "additionalProperties": true
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "scores": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "dimensions": {
+                "type": "object",
+                "properties": {
+                  "interest": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "life_value": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "value_for_money": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "novelty": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "uniqueness": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "quality": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "logistics": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "urgency": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "interest",
+                  "life_value",
+                  "value_for_money",
+                  "novelty",
+                  "uniqueness",
+                  "quality",
+                  "logistics",
+                  "urgency"
+                ],
+                "additionalProperties": true
+              },
+              "base_total": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "final_total": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "confidence": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ]
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "scored_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "availability": {
+                "enum": [
+                  "fits",
+                  "conflict",
+                  "unverified",
+                  "blackout",
+                  "on_call"
+                ]
+              },
+              "on_call_ok": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "chosen_session_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "adjustments": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "dimensions",
+              "base_total",
+              "final_total",
+              "confidence",
+              "rationale",
+              "scored_at",
+              "availability",
+              "on_call_ok",
+              "chosen_session_id",
+              "adjustments"
+            ],
+            "additionalProperties": true
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "url",
+      "date",
+      "time",
+      "end_time",
+      "timezone",
+      "venue",
+      "city",
+      "price_min",
+      "price_max",
+      "currency",
+      "cost_bucket",
+      "type",
+      "tags",
+      "popularity_signal",
+      "rating",
+      "exclusivity",
+      "uniqueness",
+      "life_value",
+      "energy_level",
+      "solo_friendly",
+      "indoor_outdoor",
+      "booking_urgency",
+      "last_chance",
+      "recurring_series",
+      "source",
+      "discovered_on",
+      "verification_status",
+      "status",
+      "notes"
+    ],
+    "additionalProperties": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+ "bot_name": "Example Bot",
+ "city": "Example City",
+ "timezone": "America/Los_Angeles",
+ "currency": "USD",
+ "notification_time": "21:00"
+}

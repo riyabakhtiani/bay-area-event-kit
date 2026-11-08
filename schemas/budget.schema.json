@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "currency": {
+      "type": "string"
+    },
+    "budget_year_start": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "budget_year_end_exclusive": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "annual_budget": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "per_event_max": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "baseline_spend": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "baseline_as_of": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "scope": {
+      "type": "string"
+    },
+    "events_per_month_cap": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "cap_counts_free_events": {
+      "type": "boolean"
+    },
+    "allow_exceptional_cap_override": {
+      "type": "boolean"
+    },
+    "reserve_amount": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "cost_bucket_edges": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "currency",
+    "budget_year_start",
+    "budget_year_end_exclusive",
+    "annual_budget",
+    "per_event_max",
+    "baseline_spend",
+    "baseline_as_of",
+    "scope",
+    "events_per_month_cap",
+    "cap_counts_free_events",
+    "allow_exceptional_cap_override",
+    "reserve_amount",
+    "cost_bucket_edges",
+    "notes"
+  ],
+  "additionalProperties": true
+}

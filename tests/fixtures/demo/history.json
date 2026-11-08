@@ -1,0 +1,30 @@
+{
+ "entries": [
+  {
+   "id": "h1",
+   "event_id": "event-001",
+   "status": "recommended",
+   "date": "2030-03-01T21:00:00-08:00",
+   "delivery_id": "d1"
+  },
+  {
+   "id": "h2",
+   "event_id": "event-001",
+   "status": "accepted",
+   "date": "2030-03-01T21:05:00-08:00",
+   "event_date": "2030-03-08"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "t1",
+   "event_id": "event-001",
+   "date": "2030-03-02",
+   "amount": 18,
+   "currency": "USD",
+   "kind": "payment",
+   "included_in_baseline": false
+  }
+ ],
+ "commitments": []
+}

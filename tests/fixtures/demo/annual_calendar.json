@@ -1,0 +1,16 @@
+[
+ {
+  "id": "annual-001",
+  "name": "Example Spring Festival",
+  "category": "culture",
+  "timing": "typically April",
+  "date_start": null,
+  "typical_price_min": 0,
+  "typical_price_max": 0,
+  "price_basis": "historical",
+  "official_url": "https://example.com/fest",
+  "worth_splurge": false,
+  "best_free": true,
+  "dates_confirmed": false
+ }
+]

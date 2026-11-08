@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "timing": {
+        "type": "string"
+      },
+      "typical_months": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12
+        }
+      },
+      "date_start": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "date_end": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "dates_confirmed": {
+        "type": "boolean"
+      },
+      "typical_price_min": {
+        "anyOf": [
+          {
+            "type": "number",
+            "minimum": 0
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "typical_price_max": {
+        "anyOf": [
+          {
+            "type": "number",
+            "minimum": 0
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "currency": {
+        "type": "string"
+      },
+      "price_basis": {
+        "enum": [
+          "published",
+          "historical",
+          "planning_estimate",
+          "unknown"
+        ]
+      },
+      "why_standout": {
+        "type": "string"
+      },
+      "official_url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "source_urls": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "worth_splurge": {
+        "type": "boolean"
+      },
+      "best_free": {
+        "type": "boolean"
+      },
+      "booking_window": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "on_sale_at": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "booking_deadline": {
+        "anyOf": [
+          {
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "verified_on": {
+        "type": "string",
+        "format": "date"
+      },
+      "verification_status": {
+        "enum": [
+          "verified",
+          "typical_only",
+          "needs_review"
+        ]
+      },
+      "notes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "city",
+      "category",
+      "timing",
+      "typical_months",
+      "date_start",
+      "date_end",
+      "dates_confirmed",
+      "typical_price_min",
+      "typical_price_max",
+      "currency",
+      "price_basis",
+      "why_standout",
+      "official_url",
+      "source_urls",
+      "worth_splurge",
+      "best_free",
+      "booking_window",
+      "verified_on",
+      "verification_status",
+      "notes"
+    ],
+    "additionalProperties": true
+  }
+}

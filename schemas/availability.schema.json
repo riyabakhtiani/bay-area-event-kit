@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "timezone": {
+      "type": "string"
+    },
+    "blackouts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "end": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "kind": {
+            "enum": [
+              "blackout",
+              "travel",
+              "sick",
+              "busy",
+              "on_call"
+            ]
+          },
+          "source": {
+            "enum": [
+              "chat",
+              "calendar"
+            ]
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "start",
+          "end",
+          "kind",
+          "source"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "on_call": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "end": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "kind": {
+            "enum": [
+              "blackout",
+              "travel",
+              "sick",
+              "busy",
+              "on_call"
+            ]
+          },
+          "source": {
+            "enum": [
+              "chat",
+              "calendar"
+            ]
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "start",
+          "end",
+          "kind",
+          "source"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "calendar_enabled": {
+      "type": "boolean"
+    },
+    "calendar_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "calendar_last_success_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "calendar_status": {
+      "enum": [
+        "disabled",
+        "connected",
+        "unverified",
+        "error"
+      ]
+    },
+    "meeting_buffer_minutes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "on_call_max_duration_minutes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "travel_return_confirmed": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "timezone",
+    "blackouts",
+    "on_call",
+    "calendar_enabled",
+    "calendar_scope",
+    "calendar_last_success_at",
+    "calendar_status",
+    "meeting_buffer_minutes",
+    "on_call_max_duration_minutes",
+    "travel_return_confirmed",
+    "notes"
+  ],
+  "additionalProperties": true
+}

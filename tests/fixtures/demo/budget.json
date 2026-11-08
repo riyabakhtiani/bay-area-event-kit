@@ -1,0 +1,11 @@
+{
+ "currency": "USD",
+ "budget_year_start": "2030-01-01",
+ "budget_year_end_exclusive": "2031-01-01",
+ "annual_budget": 500,
+ "per_event_max": 100,
+ "baseline_spend": null,
+ "events_per_month_cap": 4,
+ "cap_counts_free_events": true,
+ "scope": "example scope"
+}

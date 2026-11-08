@@ -1,0 +1,23 @@
+# never commit personal data
+/data/
+*.bak*
+.backups/
+.write.lock
+setup-state.json
+preferences.json
+budget.json
+availability.json
+history.json
+events.json
+!tests/fixtures/demo/*.json
+!examples/**/*.json
+# test tooling
+tests/.node/
+tests/node_modules
+tests/_page.tsx
+tests/_tab.*
+__pycache__/
+*.pyc
+.env
+.DS_Store
+node_modules/
